@@ -1,0 +1,125 @@
+.box {
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 900px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;   
+}
+
+.header {
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 80px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.logo{
+    margin-top: 13px;
+    margin-left: 82px;
+    width: 259px;
+    height: 58px;    
+}
+
+.logo-text{
+    margin-top: 34px;
+    margin-left: 82px;
+    width: 138px;
+    height: 17px;
+    text-align: left;
+    font: normal normal normal 14px/17px Proxima Nova;
+    letter-spacing: 0px;
+    color: #192451;
+    opacity: 1;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: 720px 720px;
+}
+
+.form-title{
+    margin-top: 50px;
+    margin-left: 85px;
+    width: 290px;
+    height: 39px;
+    text-align: left;
+    font: normal normal medium 32px/67px Proxima Nova;
+    letter-spacing: 0px;
+    color: #192451;
+    opacity: 1;
+}
+
+.form-text{
+    margin-top: 18px;
+    margin-left: 85px;
+    width: 218px;
+    height: 22px;
+    text-align: left;
+    font: normal normal medium 18px/36px Proxima Nova;
+    letter-spacing: 0px;
+    color: #919194;
+    opacity: 1;
+}
+
+.form-group{
+    margin-top: 36px;
+    margin-left: 82px;
+    text-align: left;
+    font: normal normal bold 18px/36px Proxima Nova;
+    letter-spacing: 0px;
+    color: #192451;
+    opacity: 1;
+}
+
+.form-control{
+    width: 398px;
+    background: #F6F8F9 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.form-pwd{
+    text-align: left;
+    font: normal normal medium 13px/36px Proxima Nova;
+    letter-spacing: 0px;
+    color: #919194;
+    opacity: 1;
+}
+
+.form-btn{
+    margin-top: 40px;
+    margin-left: 86px;
+    width: 248px;
+    height: 44px;
+    background: #192451 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 6px #39494C59;
+    border-radius: 4px;
+    opacity: 1;
+    text-align: center;
+    letter-spacing: 1.6px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.form-img{
+    margin-top: 120px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;    
+}
+
+.group202{
+    margin-top: -250px;
+    margin-left: 672px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;    
+}
+
+.group204{
+    margin-top: -100px;
+    margin-left: 1180px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;    
+}
