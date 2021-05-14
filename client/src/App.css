@@ -123,3 +123,293 @@
     background: transparent 0% 0% no-repeat padding-box;
     opacity: 1;    
 }
+
+.dbox{
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 1440px;
+    height: 900px;
+    background: #ECECEC 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: grid;
+    grid-template-columns: 240px 1200px;
+}
+
+.sidenav{
+    top: 0px;
+    left: 0px;
+    width: 240px;
+    height: 900px;
+    background: #131A34 0% 0% no-repeat padding-box;
+    opacity: 1;    
+}
+
+.home{
+    margin-top: 20px;
+    width: 239px;
+    height: 37px;
+    background: #323C61 0% 0% no-repeat padding-box;
+    opacity: 1;   
+    
+}
+
+.shome{
+    margin-top: 9px;
+    margin-left: 50px;
+    width: 43px;
+    height: 20px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #C2C6D9;
+    opacity: 1;
+}
+
+.nav{
+    margin-top: 9px;
+    margin-left: 50px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #C2C6D9;
+    opacity: 1;
+    font-size: 16px;
+    font: ProximaNova-Medium;
+}
+
+.line{
+    margin-top: 15px;
+    width: 238px;
+    height: 0px;
+    border: 1px solid #323C61;
+    opacity: 1; 
+}
+
+.team{
+    margin-top: 25px;
+    margin-left: 25px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #7E849F;    
+}
+
+.name{
+    margin-top: 14px;
+    margin-left: 66px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #C2C6D9;
+    opacity: 1;
+}
+
+.desig{
+    margin-top: -2px;
+    margin-left: 66px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #7E849F;
+    opacity: 1;
+}
+
+.setline{
+    margin-top: 340px;
+    margin-left: 0px;
+    width: 238px;
+    height: 0px;
+    border: 1px solid #323C61;
+    opacity: 1;
+}
+
+.setting{
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #C2C6D9;
+    opacity: 1;
+}
+
+.signout{
+    margin-top: 16px;
+    margin-left: 50px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #C2C6D9;
+    opacity: 1;
+}
+
+.dlogo{
+    margin-top: 24px;
+    margin-left: 25px;
+    background: #FFFFFF 0% 0% no-repeat padding-box; 
+    opacity: 1;
+}
+
+.dashheader {
+    margin-top: 0px;
+    width: 1201px;
+    height: 70px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 8px #0000001A;
+    opacity: 1;    
+}
+
+.shen{
+    margin-top: 9px;
+    margin-left: 80px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #131A34;
+    opacity: 1;
+    font-size: 21px;
+}
+
+.tab{
+    margin-top: 11px;
+}
+
+.discover{
+    
+    margin-left: 68px;
+    width: 68px;
+    height: 17px;
+    text-align: left;
+    letter-spacing: 0.01px;
+    color: #919194;
+    text-transform: uppercase;
+    opacity: 1;    
+}
+
+.impactb{
+    margin-left: 50px;
+    width: 99px;
+    height: 17px;
+    text-align: left;
+    letter-spacing: 0.01px;
+    color: #131A34;
+    text-transform: uppercase;
+    opacity: 1;    
+}
+
+.impactbline{
+    margin-top: -5px;
+    margin-left: 207px;
+    width: 98px;
+    height: 0px;
+    border: 3px solid #131A34;
+    opacity: 1;
+    font-size: 14px;
+}
+
+.learningp{
+    margin-left: 50px;
+    width: 108px;
+    height: 17px;
+    text-align: left;
+    letter-spacing: 0.01px;
+    color: #919194;
+    text-transform: uppercase;
+    opacity: 1;    
+}
+
+.dcontent{
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px ;
+}
+
+.group12{
+    margin-left: 20px;
+    width: 281px;
+    height: 406px;
+    opacity: 1;
+}
+
+.impactc{
+    width: 148px;
+    height: 22px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #131A34;
+    opacity: 1;
+}
+.cardtitle{
+    font: ProximaNova-Medium;
+    font-size: 16px;
+}
+
+.cardtext{
+    font: ProximaNova-Medium;
+    font-size: 13px;
+}
+
+.card{
+    margin-top: 12px;
+    width: 280px;
+    height: 156px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 6px #0000001A;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.groupfooter{
+    margin-top: 12px;
+    width: 281px;
+    height: 36px;
+    background: #ECECEC 0% 0% no-repeat padding-box;
+    opacity: 1;
+    
+}
+
+.snc{
+    margin-left: 70px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #919194;
+    opacity: 1;
+}
+
+.card2{
+    margin-top: 12px;
+    width: 281px;
+    height: 76px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 6px #0000001A;
+    border-radius: 4px;
+    opacity: 1; 
+}
+
+.card3{
+    margin-top: 12px;
+    width: 281px;
+    height: 262px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 6px #0000001A;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.card4{
+    margin-top: 12px;
+    width: 281px;
+    height: 235px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 6px #0000001A;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.designl{
+    width: 174px;
+    height: 22px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #131A34;
+    opacity: 1;
+}
+.card5{
+    margin-top: 12px;
+    width: 281px;
+    height: 756px;
+    background: transparent linear-gradient(180deg, #E3E3E3 0%, #ECECEC 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}

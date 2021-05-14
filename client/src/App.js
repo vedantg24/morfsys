@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Register from "./components/Register";
 import Dashboard from "./components/Dashboard";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './App.css';
