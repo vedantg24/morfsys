@@ -1,5 +1,8 @@
 # morfsys
 
+To start concurrently:
+npm run dev
+
 To start backend apis:
 npm run server 
 
