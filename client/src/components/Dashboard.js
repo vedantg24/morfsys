@@ -1,7 +1,26 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { connect } from "react-redux";
+import PropTypes from "prop-types";
+import { logout } from "../actions/userActions";
+import { useHistory } from "react-router-dom";
+
 import Card from 'react-bootstrap/Card';
 
-const Dashboard = () => {
+const Dashboard = ({ logout, isAuthenticated, error }) => {
+    let history = useHistory()
+    useEffect(() => {
+        if (!isAuthenticated) {
+            history.push('/login');
+        }
+
+        // eslint-disable-next-line
+    }, [isAuthenticated]);
+
+    const onLogOut = () => {
+        logout();
+        history.push("/login");
+    };
+
     return (
         <div className="dbox">
             <div className="sidenav">
@@ -22,7 +41,7 @@ const Dashboard = () => {
                 <div className="desig">Counselor</div>
                 <hr className="setline" />
                 <div className="setting">Setting</div>
-                <div className="signout">Sign Out</div>
+                <button onClick={onLogOut} href="" type="submit" value="logout" className="signout" >Sign Out</button>
             </div>
             <div className="dashheader">
                 <div className="shen">Shenzhen Houde Academy</div>
@@ -136,6 +155,16 @@ const Dashboard = () => {
 
         </div>
     )
-}
+};
 
-export default Dashboard
+Dashboard.propTypes = {
+    logout: PropTypes.func.isRequired,
+    isAuthenticated: PropTypes.bool.isRequired,
+};
+
+const mapStateToProps = (state) => ({
+    isAuthenticated: state.user.isAuthenticated,
+    error: state.user.error,
+});
+
+export default connect(mapStateToProps, { logout })(Dashboard);

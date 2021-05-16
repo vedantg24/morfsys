@@ -22,16 +22,16 @@ const Register = () => {
                     </div>
                     <div className="form-group">
                         <label htmlFor="password">Password</label>
-                        <input type="text" id="password" className="form-control" />
+                        <input type="text" id="password" className="form-control" minLength="8" />
                         <span className="form-pwd">Password must be 8 characters or longer.</span>
                     </div>
                     <button type="submit" className="form-btn">Create Account</button>
 
                 </div>
                 <img className="form-img" src="/form-img.svg" alt="" width="509px" height="425px" />
-                <img className="group204" src="Group 204.svg" alt="" width=" 296px" height="252px" />
+                <img className="group204" src="Group_204.svg" alt="" width=" 296px" height="252px" />
             </div>
-            <img className="group202" src="Group 202.svg" alt="" width=" 96px" height=" 80px" />
+            <img className="group202" src="Group_202.svg" alt="" width=" 96px" height=" 80px" />
         </div>
     )
 }

@@ -63,16 +63,16 @@ router.post("/", async (req, res) => {
 });
 
 // @route   POST api/users/login
-// @decs    Login user & get token
+// @desc    Login user & get token
 // @access  Public
 router.post("/login", async (req, res) => {
-    const { userName, password } = req.body;
+    const { email, password } = req.body;
 
     try {
-        let user = await User.findOne({ userName });
+        let user = await User.findOne({ email });
 
         if (!user) {
-            return res.status(400).send("Invalid Credentials");
+            return res.status(400).json({ msg: "Invalid Credentials" });
         }
         const isMatch = await bcrypt.compare(password, user.password);
 
